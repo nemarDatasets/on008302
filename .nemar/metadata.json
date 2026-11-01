@@ -1,30 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on008302",
-  "source": "openneuro",
-  "source_id": "ds008302",
+  "pipeline_stage": "validated",
   "title": "Cognitive overload and rest dataset. Simultaneous EEG + PPG + ECG + eye-tracking",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yuri G. Pavlov": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008302.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008302",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008302",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "36 B (1 files)"
   ],
-  "acknowledgements": "--"
+  "formats": [
+    ".gz",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset contains raw 64-channel EEG recorded simultaneously with electrocardiography, photoplethysmography, eye-tracking/pupillometry and behavioral data from 124 healthy young adults. Recordings cover a resting-state session (alternating eyes-closed and eyes-open blocks followed by passive cartoon viewing) and an adaptive verbal working memory digit-span task with serial recall. The dataset supports research on cognitive load, working memory and autonomic and ocular correlates of mental effort.",
+  "methods_description": "EEG was recorded with a 64-channel Brain Products system, with ECG and PPG recorded via the amplifier's AUX channels. Eye-tracking and pupillometry were recorded with a Pupil Labs Core wearable eye-tracker. In the adaptive digit-span task, sequence length increased after a block of 10 trials with 7 or more correct recalls and decreased otherwise. Participants typed responses on a numpad, and the correctness of each recalled digit is stored in the event triggers.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Photoplethysmography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
+    },
+    {
+      "term": "Eye tracking"
+    },
+    {
+      "term": "Pupillometry"
+    },
+    {
+      "term": "Working memory"
+    },
+    {
+      "term": "Cognitive load"
+    },
+    {
+      "term": "Resting state"
+    }
+  ],
+  "source_hash": "c925450750abb988c45e26b539d3dcdd0b480da6c9f4a87edb6d1da20fcde07c"
 }

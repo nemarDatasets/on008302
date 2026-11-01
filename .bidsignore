@@ -2,4 +2,4 @@
 # stored under beh/ (Pupil Labs physio / physioevents). 
 beh/
 **/beh/**
-.gitattributes
+.gitattributes.nemar/

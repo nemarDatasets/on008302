@@ -1,0 +1,63 @@
+{
+  "Columns": [
+    "onset",
+    "duration",
+    "trial_type",
+    "message"
+  ],
+  "TaskName": "memory",
+  "OnsetSource": "timestamp",
+  "Description": "Experiment triggers and detected blinks for the memory task. Onsets reference the \"timestamp\" column of the corresponding *_physio.tsv.gz.",
+  "onset": {
+    "Description": "Event onset within this task segment.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event duration (0 for instantaneous triggers).",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Event class (e.g. digit, block_onset, probe, blink)."
+  },
+  "message": {
+    "Description": "Trigger code. Memory digits use [position][length][correctness], correctness 1=recalled correctly, 0=incorrectly, x=unknown (e.g. 03071 / 03070 / 0307x).",
+    "Levels": {
+      "01041": "Digit 1 of a 4-digit sequence, recalled correctly",
+      "01050": "Digit 1 of a 5-digit sequence, recalled incorrectly",
+      "01051": "Digit 1 of a 5-digit sequence, recalled correctly",
+      "01060": "Digit 1 of a 6-digit sequence, recalled incorrectly",
+      "01061": "Digit 1 of a 6-digit sequence, recalled correctly",
+      "02041": "Digit 2 of a 4-digit sequence, recalled correctly",
+      "02050": "Digit 2 of a 5-digit sequence, recalled incorrectly",
+      "02051": "Digit 2 of a 5-digit sequence, recalled correctly",
+      "02060": "Digit 2 of a 6-digit sequence, recalled incorrectly",
+      "02061": "Digit 2 of a 6-digit sequence, recalled correctly",
+      "03041": "Digit 3 of a 4-digit sequence, recalled correctly",
+      "03050": "Digit 3 of a 5-digit sequence, recalled incorrectly",
+      "03051": "Digit 3 of a 5-digit sequence, recalled correctly",
+      "03060": "Digit 3 of a 6-digit sequence, recalled incorrectly",
+      "03061": "Digit 3 of a 6-digit sequence, recalled correctly",
+      "04041": "Digit 4 of a 4-digit sequence, recalled correctly",
+      "04050": "Digit 4 of a 5-digit sequence, recalled incorrectly",
+      "04051": "Digit 4 of a 5-digit sequence, recalled correctly",
+      "04060": "Digit 4 of a 6-digit sequence, recalled incorrectly",
+      "04061": "Digit 4 of a 6-digit sequence, recalled correctly",
+      "05050": "Digit 5 of a 5-digit sequence, recalled incorrectly",
+      "05051": "Digit 5 of a 5-digit sequence, recalled correctly",
+      "05060": "Digit 5 of a 6-digit sequence, recalled incorrectly",
+      "05061": "Digit 5 of a 6-digit sequence, recalled correctly",
+      "06060": "Digit 6 of a 6-digit sequence, recalled incorrectly",
+      "06061": "Digit 6 of a 6-digit sequence, recalled correctly",
+      "104": "baseline period for 4-digit sequence trial (fixation cross, ~2 s)",
+      "105": "baseline period for 5-digit sequence trial (fixation cross, ~2 s)",
+      "106": "baseline period for 6-digit sequence trial (fixation cross, ~2 s)",
+      "160": "recall probe onset",
+      "170": "start of trial (exclamation mark)",
+      "180": "onset of the subjective mental demand question",
+      "190": "start of the self-pacing rest period between blocks",
+      "200": "end of the experiment (undocumented in trigger sheet)",
+      "50": "recording start marker (undocumented in trigger sheet)",
+      "90": "new block start"
+    }
+  }
+}

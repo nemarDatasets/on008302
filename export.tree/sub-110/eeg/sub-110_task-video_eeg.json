@@ -1,0 +1,28 @@
+{
+  "InstitutionName": "Ural Federal University",
+  "InstitutionalDepartmentName": "Department of Psychology",
+  "PowerLineFrequency": 50,
+  "ManufacturersModelName": "Brain Products actiCHamp",
+  "EEGGround": "Fpz",
+  "EEGChannelCount": 63,
+  "ECGChannelCount": 1,
+  "EOGChannelCount": 0,
+  "TaskDescription": "Passive viewing of a short animated movie, \"The man who was afraid of falling\" (https://osf.io/x9jpz), presented in PsychoPy. Triggers: S22 = start and S23 = end of the movie presentation.",
+  "TaskName": "video",
+  "EEGReference": "FCz",
+  "RecordingType": "continuous",
+  "RecordingDuration": 233.874,
+  "SamplingFrequency": 1000,
+  "SoftwareFilters": "n/a",
+  "Manufacturer": "Brain Products",
+  "EEGPlacementScheme": "10-10",
+  "InstitutionAddress": "Ural Federal University, Ekaterinburg, Russia",
+  "EMGChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "HardwareFilters": {
+    "LowPass": {
+      "CutoffFrequency": 260
+    }
+  },
+  "MiscChannelCount": 1
+}

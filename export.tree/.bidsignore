@@ -1,0 +1,5 @@
+# OpenNeuro's BIDS validator does not yet support the eye-tracking (BEP020) data
+# stored under beh/ (Pupil Labs physio / physioevents). 
+beh/
+**/beh/**
+.gitattributes

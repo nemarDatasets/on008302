@@ -1,77 +1,30 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "dataset_id": "on008302",
+  "source": "openneuro",
+  "source_id": "ds008302",
   "title": "Cognitive overload and rest dataset. Simultaneous EEG + PPG + ECG + eye-tracking",
-  "description": "This dataset contains raw 64-channel EEG recorded simultaneously with electrocardiography, photoplethysmography, eye-tracking/pupillometry, and behavioral data from 124 healthy young adults. Recordings cover a resting-state session (alternating eyes-closed and eyes-open blocks plus passive cartoon watching) and an adaptive verbal working memory digit-span task with serial recall. The dataset supports research on cognitive overload, working memory load, and multimodal psychophysiology.",
-  "methods_description": "EEG was recorded with a 64-channel Brain Products system, with ECG and PPG recorded via the amplifier's AUX channels. Eye-tracking and pupillometry were recorded with a Pupil Labs Core wearable eye-tracker. In the adaptive digit-span task, sequence length increased after a block of 10 trials with 7 or more correct recalls and decreased otherwise. Participants typed responses on a numpad, and the correctness of each recalled digit is stored in the event triggers.",
-  "license": "CC0",
-  "dataset_type": "raw",
   "authors": {
     "Yuri G. Pavlov": {}
   },
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "cognitive overload"
-    },
-    {
-      "term": "eye-tracking"
-    },
-    {
-      "term": "pupillometry"
-    },
-    {
-      "term": "Photoplethysmography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
-    },
-    {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
-    },
-    {
-      "term": "digit span"
-    }
-  ],
+  "license": "CC0",
+  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008302.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on008302",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on008302",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsIdenticalTo"
     }
   ],
-  "resource_type_general": "Dataset",
-  "resource_type_specific": "Neuroimaging Dataset",
-  "modalities": [
+  "pipeline_stage": "seeded",
+  "bids_version": "1.10.0",
+  "recording_modality": [
     "beh",
     "eeg"
   ],
-  "sizes": [
-    "202 GB (1409 files)"
+  "datatypes": [
+    "beh",
+    "eeg"
   ],
-  "formats": [
-    ".gz",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "source_hash": "c925450750abb988c45e26b539d3dcdd0b480da6c9f4a87edb6d1da20fcde07c"
+  "acknowledgements": "--"
 }

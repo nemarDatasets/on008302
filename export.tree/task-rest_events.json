@@ -1,0 +1,22 @@
+{
+  "onset": {
+    "Description": "Event onset",
+    "Units": "s"
+  },
+  "value": {
+    "Description": "Trigger Code",
+    "Levels": {
+      "S 20": "start of the eyes closed condition trial (1 min long)",
+      "S 21": "start of the eyes open condition trial (1 min long)",
+      "boundary": "recording discontinuity marker inserted by EEGLAB (e.g. the recording was paused/resumed, or segments were concatenated); not a task trigger.",
+      "n/a": "missing/undefined trigger value"
+    }
+  },
+  "sample": {
+    "Description": "Onset of the event in the original raw recording, in samples."
+  },
+  "StimulusPresentation": {
+    "SoftwareName": "PsychoPy",
+    "SoftwareVersion": "v2021.2.2"
+  }
+}

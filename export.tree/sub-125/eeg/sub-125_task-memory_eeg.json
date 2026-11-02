@@ -1,0 +1,28 @@
+{
+  "InstitutionName": "Ural Federal University",
+  "InstitutionalDepartmentName": "Department of Psychology",
+  "InstitutionAddress": "Ural Federal University, Ekaterinburg, Russia",
+  "Manufacturer": "Brain Products",
+  "EEGPlacementScheme": "10-10",
+  "EMGChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "PowerLineFrequency": 50,
+  "ManufacturersModelName": "Brain Products actiCHamp",
+  "EEGGround": "Fpz",
+  "EEGChannelCount": 63,
+  "ECGChannelCount": 1,
+  "EOGChannelCount": 0,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "LowPass": {
+      "CutoffFrequency": 260
+    }
+  },
+  "TaskName": "memory",
+  "TaskDescription": "The adaptive digit span task was a modified version of the simple digit span task, designed to estimate verbal working memory capacity more precisely. Because participants completed a simple digit span task during the first visit, their starting span length was defined as their maximum correctly recalled span length minus one digit. In each trial, participants were presented with a sequence of digits to be remembered and recalled. The trial began with an exclamation mark for 0.5 s, followed by a fixation cross (Thaler et al., 2013; 0.8 cm in diameter) for 2 s, and then digits were presented for 0.5 s with an SOA of 2 s alternated with the fixation cross. After the last digit, the retention interval continued for 3.5 s, after which the participant typed the sequence in the correct order (unlimited response time). A successful trial was defined as recalling all digits in the correct order. Trials were grouped into blocks of 10 trials, all of the same sequence length. If a participant recalled seven or more trials in a block, sequences in the next block were one digit longer; if fewer than seven, the next block was one digit shorter. The task finished when the participant completed six blocks of adjacent sequence types (at least 60 trials with <70% accuracy and 60 trials with >=70% accuracy). The sequence length of the >=70% accuracy blocks was the individual verbal working memory capacity (span load); the length of the <70% accuracy blocks was one digit longer (the overload / span+1 condition). Being adaptive, participants could complete more than the minimum of 120 trials; this, with self-paced breaks between blocks, contributed to variability in task duration. On average, 66 trials from >=70% accuracy blocks and 66 from <70% accuracy blocks were included in the analysis. After each block, participants answered one NASA-TLX mental-demand item (\"How mentally demanding was the task?\") on a visual analog scale from 0 to 20.",
+  "EEGReference": "FCz",
+  "RecordingType": "continuous",
+  "RecordingDuration": 5026.449,
+  "SamplingFrequency": 1000,
+  "MiscChannelCount": 1
+}

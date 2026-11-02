@@ -1,0 +1,29 @@
+{
+  "Columns": [
+    "onset",
+    "duration",
+    "trial_type",
+    "message"
+  ],
+  "TaskName": "video",
+  "OnsetSource": "timestamp",
+  "Description": "Experiment triggers and detected blinks for the video task. Onsets reference the \"timestamp\" column of the corresponding *_physio.tsv.gz.",
+  "onset": {
+    "Description": "Event onset within this task segment.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event duration (0 for instantaneous triggers).",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Event class (e.g. digit, block_onset, probe, blink)."
+  },
+  "message": {
+    "Description": "Trigger code. Memory digits use [position][length][correctness], correctness 1=recalled correctly, 0=incorrectly, x=unknown (e.g. 03071 / 03070 / 0307x).",
+    "Levels": {
+      "22": "start of the movie presentation",
+      "23": "end of the movie presentation"
+    }
+  }
+}

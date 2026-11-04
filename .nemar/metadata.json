@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cognitive overload and rest dataset. Simultaneous EEG + PPG + ECG + eye-tracking",
-  "description": "This dataset contains raw 64-channel EEG recorded simultaneously with electrocardiography, photoplethysmography, eye-tracking/pupillometry and behavioral data from 124 healthy young adults. Recordings cover a resting-state session (alternating eyes-closed and eyes-open blocks followed by passive cartoon viewing) and an adaptive verbal working memory digit-span task with serial recall. The dataset supports research on cognitive load, working memory and psychophysiological markers of overload and rest.",
-  "methods_description": "EEG was recorded with a 64-channel Brain Products system, with ECG and PPG recorded via the amplifier's AUX channels. Eye-tracking and pupillometry were recorded with a Pupil Labs Core wearable eye-tracker. In the adaptive digit-span task, sequence length increased when 7 or more of 10 trials in a block were recalled correctly and decreased otherwise. Participants typed responses on a numpad.",
+  "description": "This dataset contains raw 64-channel EEG recorded simultaneously with electrocardiography, photoplethysmography, eye-tracking/pupillometry, and behavioral data from 124 healthy young adults. Recordings were made during a resting-state session (alternating eyes-closed and eyes-open blocks followed by passive cartoon viewing) and an adaptive verbal working memory digit-span task with serial recall. The dataset supports research on cognitive load, working memory, and psychophysiological correlates of mental effort.",
+  "methods_description": "EEG was recorded with a 64-channel Brain Products system, with ECG and PPG recorded via the amplifier's AUX channels. Eye-tracking and pupillometry were recorded with a Pupil Labs Core wearable eye tracker. In the adaptive digit-span task, sequence length increased after a block of 10 trials with at least 7 correct recalls and decreased otherwise. Participants typed responses on a numpad.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,26 +14,27 @@
       "term": "EEG"
     },
     {
+      "term": "working memory"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "photoplethysmography"
+    },
+    {
       "term": "Electrocardiography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "Photoplethysmography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
-    },
-    {
-      "term": "Eye-tracking"
-    },
-    {
-      "term": "Working memory"
-    },
-    {
-      "term": "Cognitive load"
-    },
-    {
-      "term": "Resting state"
+      "term": "resting state"
     }
   ],
   "related_identifiers": [
